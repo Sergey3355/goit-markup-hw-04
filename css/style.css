@@ -148,12 +148,19 @@ margin-left: 50px;
 
 
 .malto{
-    color: #757575; 
-    display: block;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #757575;
     fill: currentColor;
        
 }
 .telephone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     fill: currentColor;
     color: #757575;
     
@@ -225,6 +232,7 @@ margin-left: 50px;
 .button:hover, 
 .button:focus{
     background: #2196F3;
+    
 }
 
 /*--------peculiarities section-----*/
@@ -342,8 +350,6 @@ margin-left: 50px;
     text-align: center;
     letter-spacing: 0.03em;
 
-    
-    
 }
 
 
@@ -441,23 +447,16 @@ margin-left: 50px;
          /* clients */
 
 .client{
-    padding-top: 123px;
-    padding-bottom: 65px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-.container-client{
-display: flex;
-
-justify-content: center;
-
-
-
-}
 
 .permanent-client{
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -466,15 +465,9 @@ justify-content: center;
 }
 
 .client-list{
-    margin-top: 50px;
     display: flex;
-    align-items: center;
-
-    /* border: 1px solid #AFB1B8;
-    box-sizing: border-box;
-    border-radius: 4px; */
-
-
+    justify-content: center;
+    
 }
 
 .client-item{
@@ -482,6 +475,10 @@ justify-content: center;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
+}
+
+.client-item:nth-child(6){
+    margin-right: 0;
 }
 
 .client-item:hover{
@@ -501,11 +498,10 @@ justify-content: center;
     justify-content: center;
     color: #AFB1B8;
     
-    
 }
 
 .client-link:hover{
-    
+    border: 1px solid #2196F3;
     color: #2196F3;
     
 }
@@ -699,7 +695,7 @@ fill: currentColor;
         background: #F5F4FA;
      }
 
-     .btn-list.secondary  {
+     .btn-list.secondary {
          background: #2196F3;
          color: #FFFFFF;
      }
@@ -739,7 +735,9 @@ fill: currentColor;
         background: #FFFFFF;
         border: 1px solid #EEEEEE;
         box-sizing: border-box;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+        0px 4px 4px rgba(0, 0, 0, 0.06), 
+        1px 4px 6px rgba(0, 0, 0, 0.16);
      }
 
      .main-hero{
