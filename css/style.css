@@ -115,12 +115,17 @@ img{
 
 .header-item{
     margin-left: 50px;
+    
 
 }
 
 
 .header-info:hover, 
 .header-info:focus{
+    color: #2196F3;
+}
+
+.header-info:active{
     color: #2196F3;
 }
 
@@ -472,9 +477,7 @@ margin-left: 50px;
 
 .client-item{
     margin-right: 30px;
-    border: 1px solid #AFB1B8;
-    box-sizing: border-box;
-    border-radius: 4px;
+  
 }
 
 .client-item:nth-child(6){
@@ -492,6 +495,9 @@ margin-left: 50px;
 .client-link{
     width: 170px;
     height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 
     display: flex;
     align-items: center;
@@ -734,8 +740,7 @@ fill: currentColor;
     .main-list a:hover, .main-list a:focus{
     background: #FFFFFF;
     
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
+    
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
