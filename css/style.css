@@ -115,10 +115,12 @@ img{
 
 .header-item{
     margin-left: 50px;
-    
 
 }
 
+.active{
+    color: #2196F3;
+}
 
 .header-info:hover, 
 .header-info:focus{
